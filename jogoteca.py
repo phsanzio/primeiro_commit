@@ -15,7 +15,7 @@ jogo3 = jogos('GTA', 'Ação', 'PC')
 lista = [jogo1, jogo2, jogo3]
 
 @app.route('/inicio')
-def ola():
+def um():
     return render_template('lista.html',titulo='Meus Jogos', jogos = lista)
 
 app.run()
